@@ -25,5 +25,6 @@ public class Solution {
         }
         System.out.printf("Even: %d Odd: %d", even, odd);
         System.out.printf("Even: %d Odd: %d", even, odd);
+        System.out.printf("Even: %d Odd: %d", even, odd);
     }
 }
