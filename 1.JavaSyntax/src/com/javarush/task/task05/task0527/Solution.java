@@ -8,7 +8,7 @@ public class Solution {
     public static void main(String[] args) {
         Mouse jerryMouse = new Mouse("Jerry", 12, 5);
 
-        //напишите тут ваш код
+        111//напишите тут ваш код
     }
 
     public static class Mouse {
@@ -23,5 +23,5 @@ public class Solution {
         }
     }
 
-    1//напишите тут ваш код
+    //напишите тут ваш код
 }
