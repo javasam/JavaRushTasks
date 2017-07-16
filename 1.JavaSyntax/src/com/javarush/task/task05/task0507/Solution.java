@@ -9,17 +9,17 @@ import java.io.InputStreamReader;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int i = 1;
         double c = 0;
         while (true) {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             int b = Integer.parseInt(reader.readLine());
             if (b == -1)break;
             i++;
             c = c + b;
 
         }
-        System.out.println(c/(i-1));
+        System.out.println(c/i);
         }
 }
 
